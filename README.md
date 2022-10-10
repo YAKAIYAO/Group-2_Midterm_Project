@@ -85,7 +85,11 @@ Note: when we dealt with datas, we used pandas package to do this easier.
 
 
 ## REPRODUCIBILITY
-- Instructions to rerun that analysis in the README.md (from takehiro)
+- Please set the current directory to the top or the repo(which is the same as the place of this README.md).
+- Before running the code, please install requirement.txt or packages if you do not have them.  
+- Open the **main.py** under the directory of the code and Execute it.
+- After the above running code, you can get three csv files in the artifacts directory.
+- Rhe **result_integrated.csv** file out of three csv files in the artifacts directory is the final result file.
 
 
 
