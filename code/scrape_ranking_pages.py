@@ -35,4 +35,32 @@ def player_scraping(player_html,year):
     player_url = player_html.find_all("td")[1].find('a').attrs['href'].replace("http://","https://")
     id = int(player_url.replace("https://www.espn.com/nba/player/_/id/","").split("/")[0])
     data.loc[id] = [id,year,rank,name,team,salary,player_url]
+<<<<<<< HEAD
     return
+=======
+    return
+
+def extract_max_page(soup):
+    # Function Input:HTML Output:Maxvalue
+    temp =[]
+    page = soup.find_all("div", class_="page-numbers")[0].text
+    temp=page.split(" ")
+    max_page=temp[2]
+    return max_page
+
+def scrape_all_pages(url,all_years,top):
+    # Scraping All year all page 
+    for year in all_years: 
+        for page in range(20):
+            current_URL = url+"/_/year/"+str(year)+"/page/"+str(page+1)+"/seasontype/1"
+            scrape_page(year, current_URL,page)
+        new_data=top_saraly(data,top)
+    return new_data
+
+def top_saraly(data, top):
+    # Function Input: all data Output: top30(its number)
+    if(top != ""):
+        data.sort_values(["rank"],inplace=True)
+        new_data = data.head(top)
+    return new_data
+>>>>>>> 029c5cb34df2079d43af7fedd2120c251f12c03b
