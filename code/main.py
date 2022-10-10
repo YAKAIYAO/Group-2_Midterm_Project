@@ -19,3 +19,7 @@ Integrated_CSV_PATH = os.path.join(BASE_DIR, "results_integrated.csv")
 ranking_data = pd.read_csv(Ranking_CSV_PATH, index_col = "id")
 player_data = pd.read_csv(Player_CSV_PATH, index_col = "id")
 integrated_data=pd.concat([ranking_data,player_data],axis=1)
+
+# 3. Output to CSV
+integrated_data.to_csv(Integrated_CSV_PATH,header=True)
+print("Complete")
