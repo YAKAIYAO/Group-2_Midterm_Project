@@ -1,0 +1,31 @@
+id,name,position,height,weight,age,assist,pts
+3975.0,Stephen Curry,Point Guard,6.02,185.0,34.0,6.3,25.5
+3992.0,James Harden,Shooting Guard,6.05,220.0,33.0,10.3,22.0
+4237.0,John Wall,Point Guard,6.03,210.0,32.0,6.9,20.6
+3468.0,Russell Westbrook,Point Guard,6.03,200.0,33.0,7.1,18.5
+3202.0,Kevin Durant,Power Forward,6.1,240.0,34.0,6.4,29.9
+1966.0,LeBron James,Small Forward,6.09,250.0,37.0,6.2,30.3
+3032977.0,Giannis Antetokounmpo,Power Forward,6.11,242.0,27.0,5.8,29.9
+6606.0,Damian Lillard,Point Guard,6.02,195.0,32.0,7.3,24.0
+6450.0,Kawhi Leonard,Small Forward,6.07,225.0,31.0,5.2,24.8
+4251.0,Paul George,Shooting Guard,6.08,220.0,32.0,5.7,24.3
+6475.0,Klay Thompson,Shooting Guard,6.06,220.0,32.0,2.8,20.4
+6430.0,Jimmy Butler,Small Forward,6.07,230.0,33.0,5.5,21.4
+6440.0,Tobias Harris,Power Forward,6.07,226.0,30.0,3.5,17.2
+6609.0,Khris Middleton,Small Forward,6.07,222.0,31.0,5.4,20.1
+6583.0,Anthony Davis,Power Forward,6.1,253.0,29.0,3.1,23.2
+3032976.0,Rudy Gobert,Center,7.01,258.0,30.0,1.1,15.6
+6442.0,Kyrie Irving,Point Guard,6.02,195.0,30.0,5.8,27.4
+6580.0,Bradley Beal,Shooting Guard,6.03,207.0,29.0,6.6,23.2
+3149673.0,Pascal Siakam,Power Forward,6.08,230.0,28.0,5.3,22.8
+3907387.0,Ben Simmons,Point Guard,6.11,240.0,26.0,6.9,14.3
+3995.0,Jrue Holiday,Point Guard,6.03,205.0,32.0,6.8,18.3
+3102531.0,Kristaps Porzingis,Center,7.03,240.0,27.0,2.3,20.2
+3136193.0,Devin Booker,Shooting Guard,6.05,206.0,25.0,4.8,26.8
+3136195.0,Karl-Anthony Towns,Center,6.11,248.0,26.0,3.6,24.6
+3059318.0,Joel Embiid,Center,7.0,280.0,28.0,4.2,30.6
+3059319.0,Andrew Wiggins,Small Forward,6.07,197.0,27.0,2.2,17.2
+3112335.0,Nikola Jokic,Center,6.11,284.0,27.0,7.9,27.1
+3449.0,Kevin Love,Power Forward,6.08,251.0,34.0,2.2,13.6
+2490149.0,CJ McCollum,Shooting Guard,6.03,190.0,31.0,5.1,22.1
+3136776.0,D'Angelo Russell,Point Guard,6.04,193.0,26.0,7.1,18.1
