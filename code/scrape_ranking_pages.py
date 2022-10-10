@@ -36,3 +36,13 @@ def player_scraping(player_html,year):
     id = int(player_url.replace("https://www.espn.com/nba/player/_/id/","").split("/")[0])
     data.loc[id] = [id,year,rank,name,team,salary,player_url]
     return
+
+def extract_max_page(soup):
+    # Function Input:HTML Output:Maxvalue
+    temp =[]
+    page = soup.find_all("div", class_="page-numbers")[0].text
+    temp=page.split(" ")
+    max_page=temp[2]
+    return max_page
+
+
