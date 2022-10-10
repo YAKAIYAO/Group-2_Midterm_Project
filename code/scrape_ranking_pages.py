@@ -45,4 +45,18 @@ def extract_max_page(soup):
     max_page=temp[2]
     return max_page
 
+def scrape_all_pages(url,all_years,top):
+    # Scraping All year all page 
+    for year in all_years: 
+        for page in range(20):
+            current_URL = url+"/_/year/"+str(year)+"/page/"+str(page+1)+"/seasontype/1"
+            scrape_page(year, current_URL,page)
+        new_data=top_saraly(data,top)
+    return new_data
 
+def top_saraly(data, top):
+    # Function Input: all data Output: top30(its number)
+    if(top != ""):
+        data.sort_values(["rank"],inplace=True)
+        new_data = data.head(top)
+    return new_data
