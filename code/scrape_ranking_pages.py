@@ -24,3 +24,15 @@ def scrape_page(year, current_URL,page):
         for evenplayer_html in evenplayers_html:
             player_scraping(evenplayer_html,year)
     return data
+
+def player_scraping(player_html,year):
+    # Function Input:HTML Output:Information
+    year = year
+    rank = int(player_html.find_all("td")[0].text)
+    name = player_html.find_all("td")[1].text
+    team = player_html.find_all("td")[2].text
+    salary = int(player_html.find_all("td")[3].text.replace("$","").replace(",",""))
+    player_url = player_html.find_all("td")[1].find('a').attrs['href'].replace("http://","https://")
+    id = int(player_url.replace("https://www.espn.com/nba/player/_/id/","").split("/")[0])
+    data.loc[id] = [id,year,rank,name,team,salary,player_url]
+    return
