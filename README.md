@@ -52,11 +52,11 @@ Note: We used pandas package to handle the datasets more easily.
 
 After scraping all the data, we used matplotlib to visualize them. We used a combination of bar graph (to show the player salary) and scatter plots to display a few chosen variables: age, assists per game, points scored per game, height and weight. We wanted to see if there are any interesting trends that could be observed.
 
-### Description and Findings (and lack of findings)
+### Description and Findings
 
 - Plot 1 - Salary
 	![](plot/salary.png)
-	Plot 1 simply shows the top 30 earners in the descending order. We can see that most players in the top 10 are either point guards(PG) or small forwards(SF). The average salary is around $36m. In the 20-30 range, most players are centers. Those that have similar salaries have similar contract lengths. For example, Andrew Wiggins and Joel Embiid both have five-year contracts.
+	Plot 1 simply shows the top 30 earners in the descending order. We can see that most players in the top 10 are point guards (PG). The average salary is around $36m. In the 20-30 range, most players are centers. Those that have similar salaries have similar contract lengths. For example, Andrew Wiggins and Joel Embiid both have five-year contracts.
 
 - Plot 2 - Salary and Age
 	![](plot/age.png)
@@ -64,7 +64,7 @@ After scraping all the data, we used matplotlib to visualize them. We used a com
 
 - Plot 3 - Salary and Assists per Game
 	![](plot/assist.png)
-	We can see that most of the top 30 players have 5+ assists. Stephen Curry has 10+ assists, while Rudy Gobert only has one.
+	We can see that most of the top 30 players have 5+ assists. James Harden has 10+ assists, while Rudy Gobert only has one.
 
 - Plot 4 - Salary and Points per Game
 	![](plot/pts.png)
@@ -74,6 +74,10 @@ After scraping all the data, we used matplotlib to visualize them. We used a com
 	![](plot/weight.png)
 
 - Regression and Heteroskedasticity Test
+	
+	We loaded the scraped datset using pandas DataFrame. Then we fit a regression model with salary as the response variable and height, weight, age, assists, and points as the five predictor variables. We then used het_white() function from the statsmodels package to perform White's test to determine if heteroskedasticity is present in the regression model.
+
+	![](plot/regression test.png)
 
 
 ### Limitations
