@@ -97,7 +97,8 @@ In regards to extensions of our analysis, we could collect larger sample size (1
 
 - Set the current directory to the top of the repo (Same place where this README.md is located).
 - Before executing the code, install requirement.txt or packages if you do not have them already, by running "pip3 install -r requirements.txt" 
-- Open the **main.py** under the directory of the code and Execute it.
-- After running above code, you can get three csv files in the artifacts directory.
+- Open the **main.py** under the directory of the code and execute it.
+	(main.py executes these python files automatically: 1. scraping_ranking, 2. scrape_rankig_pages, 3. scraping_player, 4. scraping_player_pages)
+- After running the above code, you can get three csv files in the artifacts directory.
 - **result_integrated.csv** file is the final result file.
 
