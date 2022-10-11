@@ -22,6 +22,11 @@ x = sm.add_constant(x)
 
 """#fit regression model"""
 model = sm.OLS(y, x).fit()
+predictions = model.predict(x)
+
+print_model = model.summary()
+print(print_model)
+
 
 """#perform White's test"""
 white_test = het_white(model.resid,  model.model.exog)
