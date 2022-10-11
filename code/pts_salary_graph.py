@@ -4,7 +4,7 @@ import seaborn as sns
 import os
 
 IN_PATH = os.path.join("artifacts", "results_player.csv")
-OUT_PATH = os.path.join("plot", "height.png")
+OUT_PATH = os.path.join("plot", "pts_salary.png")
 
 data1 = pd.read_csv(IN_PATH)
 

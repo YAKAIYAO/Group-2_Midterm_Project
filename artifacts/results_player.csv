@@ -1,31 +1,31 @@
-id,name,position,height,weight,age,assist,pts
-3975.0,Stephen Curry Biography | ESPN,Point Guard,6.02,185.0,34.0,6.3,25.5
-3992.0,James Harden Biography | ESPN,Shooting Guard,6.05,220.0,33.0,10.3,22.0
-4237.0,John Wall Biography | ESPN,Point Guard,6.03,210.0,32.0,6.9,20.6
-3468.0,Russell Westbrook Biography | ESPN,Point Guard,6.03,200.0,33.0,7.1,18.5
-3202.0,Kevin Durant Biography | ESPN,Power Forward,6.1,240.0,34.0,6.4,29.9
-1966.0,LeBron James Biography | ESPN,Small Forward,6.09,250.0,37.0,6.2,30.3
-3032977.0,Giannis Antetokounmpo Biography | ESPN,Power Forward,6.11,242.0,27.0,5.8,29.9
-6606.0,Damian Lillard Biography | ESPN,Point Guard,6.02,195.0,32.0,7.3,24.0
-6450.0,Kawhi Leonard Biography | ESPN,Small Forward,6.07,225.0,31.0,5.2,24.8
-4251.0,Paul George Biography | ESPN,Shooting Guard,6.08,220.0,32.0,5.7,24.3
-6475.0,Klay Thompson Biography | ESPN,Shooting Guard,6.06,220.0,32.0,2.8,20.4
-6430.0,Jimmy Butler Biography | ESPN,Small Forward,6.07,230.0,33.0,5.5,21.4
-6440.0,Tobias Harris Biography | ESPN,Power Forward,6.07,226.0,30.0,3.5,17.2
-6609.0,Khris Middleton Biography | ESPN,Small Forward,6.07,222.0,31.0,5.4,20.1
-6583.0,Anthony Davis Biography | ESPN,Power Forward,6.1,253.0,29.0,3.1,23.2
-3032976.0,Rudy Gobert Biography | ESPN,Center,7.01,258.0,30.0,1.1,15.6
-6442.0,Kyrie Irving Biography | ESPN,Point Guard,6.02,195.0,30.0,5.8,27.4
-6580.0,Bradley Beal Biography | ESPN,Shooting Guard,6.03,207.0,29.0,6.6,23.2
-3149673.0,Pascal Siakam Biography | ESPN,Power Forward,6.08,230.0,28.0,5.3,22.8
-3907387.0,Ben Simmons Biography | ESPN,Point Guard,6.11,240.0,26.0,6.9,14.3
-3995.0,Jrue Holiday Biography | ESPN,Point Guard,6.03,205.0,32.0,6.8,18.3
-3102531.0,Kristaps Porzingis Biography | ESPN,Center,7.03,240.0,27.0,2.3,20.2
-3136193.0,Devin Booker Biography | ESPN,Shooting Guard,6.05,206.0,25.0,4.8,26.8
-3136195.0,Karl-Anthony Towns Biography | ESPN,Center,6.11,248.0,26.0,3.6,24.6
-3059318.0,Joel Embiid Biography | ESPN,Center,7.0,280.0,28.0,4.2,30.6
-3059319.0,Andrew Wiggins Biography | ESPN,Small Forward,6.07,197.0,27.0,2.2,17.2
-3112335.0,Nikola Jokic Biography | ESPN,Center,6.11,284.0,27.0,7.9,27.1
-3449.0,Kevin Love Biography | ESPN,Power Forward,6.08,251.0,34.0,2.2,13.6
-2490149.0,CJ McCollum Biography | ESPN,Shooting Guard,6.03,190.0,31.0,5.1,22.1
-3136776.0,D'Angelo Russell Biography | ESPN,Point Guard,6.04,193.0,26.0,7.1,18.1
+id,name,position,height,weight,age,assist,pts,salary
+3975,Stephen Curry Biography | ESPN,Point Guard,6.02,185,34,6.3,25.5,45780966
+3992,James Harden Biography | ESPN,Shooting Guard,6.05,220,33,10.3,22,44310840
+4237,John Wall Biography | ESPN,Point Guard,6.03,210,32,6.9,20.6,44310840
+3468,Russell Westbrook Biography | ESPN,Point Guard,6.03,200,33,7.1,18.5,44211146
+3202,Kevin Durant Biography | ESPN,Power Forward,6.1,240,34,6.4,29.9,42018900
+1966,LeBron James Biography | ESPN,Small Forward,6.09,250,37,6.2,30.3,41180544
+3032977,Giannis Antetokounmpo Biography | ESPN,Power Forward,6.11,242,27,5.8,29.9,39344970
+6606,Damian Lillard Biography | ESPN,Point Guard,6.02,195,32,7.3,24,39344900
+6450,Kawhi Leonard Biography | ESPN,Small Forward,6.07,225,31,5.2,24.8,39344900
+4251,Paul George Biography | ESPN,Shooting Guard,6.08,220,32,5.7,24.3,39344900
+6475,Klay Thompson Biography | ESPN,Shooting Guard,6.06,220,32,2.8,20.4,37980720
+6430,Jimmy Butler Biography | ESPN,Small Forward,6.07,230,33,5.5,21.4,36016200
+6440,Tobias Harris Biography | ESPN,Power Forward,6.07,226,30,3.5,17.2,35995950
+6609,Khris Middleton Biography | ESPN,Small Forward,6.07,222,31,5.4,20.1,35500000
+6583,Anthony Davis Biography | ESPN,Power Forward,6.1,253,29,3.1,23.2,35361360
+3032976,Rudy Gobert Biography | ESPN,Center,7.01,258,30,1.1,15.6,35344828
+6442,Kyrie Irving Biography | ESPN,Point Guard,6.02,195,30,5.8,27.4,35328700
+6580,Bradley Beal Biography | ESPN,Shooting Guard,6.03,207,29,6.6,23.2,33724200
+3149673,Pascal Siakam Biography | ESPN,Power Forward,6.08,230,28,5.3,22.8,33003936
+3907387,Ben Simmons Biography | ESPN,Point Guard,6.11,240,26,6.9,14.3,33003936
+3995,Jrue Holiday Biography | ESPN,Point Guard,6.03,205,32,6.8,18.3,32413333
+3102531,Kristaps Porzingis Biography | ESPN,Center,7.03,240,27,2.3,20.2,31650600
+3136193,Devin Booker Biography | ESPN,Shooting Guard,6.05,206,25,4.8,26.8,31650600
+3136195,Karl-Anthony Towns Biography | ESPN,Center,6.11,248,26,3.6,24.6,31650600
+3059318,Joel Embiid Biography | ESPN,Center,7,280,28,4.2,30.6,31579390
+3059319,Andrew Wiggins Biography | ESPN,Small Forward,6.07,197,27,2.2,17.2,31579390
+3112335,Nikola Jokic Biography | ESPN,Center,6.11,284,27,7.9,27.1,31579390
+3449,Kevin Love Biography | ESPN,Power Forward,6.08,251,34,2.2,13.6,31258256
+2490149,CJ McCollum Biography | ESPN,Shooting Guard,6.03,190,31,5.1,22.1,30864198
+3136776,D'Angelo Russell Biography | ESPN,Point Guard,6.04,193,26,7.1,18.1,30013500
