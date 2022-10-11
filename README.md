@@ -2,12 +2,7 @@
 
 ## GOAL
 
-3 goals
-1. scrape player data
-2. use data extraced to find any interesting findgs/trends
-3. regression anlaysis to see correlation between variable x and y.
-
-The main goal of our analysis is three-folds. One is to scrape data of the top 30 earners in the NBA during the 2021-2022 season from ESPN website. Second, we use the data we extracted to see if there are any interesting findings/trends between the different variables. Lastly, we run a basic regression to see if there are any correlation between variables x and y, which feeds into potential extensions of our analysis or further areas for more research.
+The main goal of our analysis is three-folds. One is to scrape data of the top 30 NBA players that earned the highest salary during 2021-2022 season from the ESPN website. Second, we use the data we extracted to see if there are any interesting findings/trends between different variables: age, assists per game, points scored per game, height and weight. Lastly, we run a regression analysis to see if there are any correlation between salary and the said variables.
 
 
 ## DATA
