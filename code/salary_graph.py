@@ -7,7 +7,7 @@ OUT_PATH = os.path.join("plot", "salary.png")
 
 df = pd.read_csv(IN_PATH)
 
-fig = plt.figure(figsize = (110,11))
+fig = plt.figure(figsize = (11,11))
 plt.barh(df['name'], df['salary'], color = 'maroon')
 plt.scatter(df['age'], df['name'])
 plt.title('Salary Graph')
