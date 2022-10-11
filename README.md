@@ -77,7 +77,7 @@ After scraping all the data, we used matplotlib to visualize them. We used a com
 	
 	We loaded the scraped datset using pandas DataFrame. Then we fit a regression model with salary as the response variable and height, weight, age, assists, and points as the five predictor variables. We then used het_white() function from the statsmodels package to perform White's test to determine if heteroskedasticity is present in the regression model.
 
-	![](plot/regression test.png)
+	![](plot/regression_test.png)
 
 
 ### Limitations
