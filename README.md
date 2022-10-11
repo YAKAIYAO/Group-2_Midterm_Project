@@ -1,13 +1,10 @@
-# Group 2 Midterm Project Report (30 points)
+# Group 2 Midterm Project Report
 
-## GOAL
+## Goal
 
 The main goal of our analysis is three-folds. One is to scrape data of the top 30 NBA players that earned the highest salary during 2021-2022 season from the ESPN website. Second, we use the data we extracted to see if there are any interesting findings/trends between different variables: age, assists per game, points scored per game, height and weight. Lastly, we run a regression analysis to see if there are any correlation between salary and the said variables.
 
-
-## DATA
-
-Executing *main.py* will produce all of the data.
+## Data
 
 ### Sources
 
@@ -23,7 +20,7 @@ We collected data from the ESPN website in the following order:
 ### Collection Methods
 
 Our collection methods can be divided into three main steps.
-As we mentioned above, you only execute *main.py*, which will run below three steps.
+Note: You only need to execute *main.py*, which will run below three steps.
 
 
 1. Collect the ranking of the NBA players salaries and the each player [scrape_ranking.py/scrape_ranking_pages.py]
@@ -48,50 +45,60 @@ As we mentioned above, you only execute *main.py*, which will run below three st
 
 Note: We used pandas package to handle the datasets more easily.
 
-### Limitation of the data
-### Extension of data
-
-## ANALYSIS
+## Analysis
 
 ### Methodology
 
 After scraping all the data, we used matplotlib to visualize them. We used a combination of bar graph (to show the player salary) and scatter plots to display a few chosen variables: age, assists per game, points scored per game, height and weight. We wanted to see if there are any interesting trends that could be observed.
 
-### Description and Findings (or lack of findings)
+### Description and Findings (and lack of findings)
 
 - Plot 1 - Salary
-	* ![](plots/age.png)
-	Plot 1 simply shows the top 30 earners in the descending order. We can see that most players in the top 10 are either point guards(PG) or small forwards(SF). The average salary is around $36m. In the 20-30 range, most players are centers. 
+	![](plots/age.png)
+	Plot 1 simply shows the top 30 earners in the descending order. We can see that most players in the top 10 are either point guards(PG) or small forwards(SF). The average salary is around $36m. In the 20-30 range, most players are centers. Those that have similar salaries have similar contract lengths. For example, Andrew Wiggins and Joel Embiid both have five-year contracts.
+
+- Plot 2 - Salary and Age
+	![](plots/age.png)
+	Among the top 30, we can see that only Lebron James is older than 36. Most players are between age 30-34. It seems like 35+ may have hard time maintainig high salary, perhaps because they have shorter contracts as they get older.
+
+- Plot 3 - Salary and Assists per Game
+	![](plots/assist.png)
+	We can see that most of the top 30 players have 5+ assists. Stephen Curry has 10+ assists, while Rudy Gobert only has one.
+
+- Plot 4 - Salary and Points per Game
+	![](plots/point.png)
+	Average points scored per game is around 22.
+
+- Plot 5 - Salary and Height
+	![](plots/height.png)
+	Most players that made the top 30 are at least 6ft tall.
+
+- Plot 6 - Salary and Weight
+	![](plots/weight.png)
+
+- Hanwen's Regression
+	![](plots/regression1.png)
+	We found that the most correlated variables are: 1. Age 2. Assists 3. Points.
+	(More details to be added by Hanwen)
 
 
-- Plot 2 - description
-	* ![](plots/plot2.png)
-- Plot 3 - description
-	* ![](plots/plot3.png)
-- Plot 4 - description
-	* ![](plots/plot4.png)
-- Hanwen's Regression - description (From hanwen)
-	* ![](plots/regression1.png)
+### Limitations
 
-	Equation:
-		(SALARY_i ) ̂=β_0+β_1 AGE_i+β_2 PPG_i+β_3 APG_i+β_4 Height_i+β_5 Weight_i+ϵ_i
+Players in their first season will lack performance data compared to those who played longer seasons. Incomplete data may have been obtained for such players. Salary is often based on contract length. Star players that have longer contracts will inevitabily have higher salaries. Also, both assists and points per game somewhat depends on the players' poistion. For example, point guards and shooting guards will have more assists and points than centers and power forwards (need to confir with Oscar!). Every team has a different salary cap as well. As such, there may be inherent limitations on salary based on the teams and poistions.
 
 
-### Limitations of analysis
+### Extensions
 
-### Extension of our analysis
-1. extend number of players 30 -> 100 or possibly more
-2. extend to multiple seasons instead of one.
-3. add more variables: team, weight, rebounds, experience (# of seasons), draft info, etc
-3. run various regression analyses and possibly use STATA or R, or even python package if there is one (instead of excel)
+In regards to extensions of our analysis, we could collect larger sample size (100 instead of 30) as well as over longer period of time (multiple seasons instead of one). To strengthen our regression analysis, we could also add more variables such as race, turnover rates, steals, blocks, rebounds, etc. To compensate for some of the salary limitation mentioned above, we could analayze salary by team and position, which will yield stronger and more accurate comparison.
 
 
-## REPRODUCIBILITY
-- Please set the current directory to the top or the repo(which is the same as the place of this README.md).
-- Before running the code, please install requirement.txt or packages if you do not have them.  
+### Reproducibility
+
+- Set the current directory to the top of the repo (Same place where this README.md is located).
+- Before executing the code, install requirement.txt or packages if you do not have them already, by running "pip3 install -r requirements.txt" 
 - Open the **main.py** under the directory of the code and Execute it.
-- After the above running code, you can get three csv files in the artifacts directory.
-- Rhe **result_integrated.csv** file out of three csv files in the artifacts directory is the final result file.
+- After running above code, you can get three csv files in the artifacts directory.
+- **result_integrated.csv** file is the final result file.
 
 
 
