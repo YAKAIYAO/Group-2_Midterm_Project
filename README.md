@@ -7,11 +7,12 @@ The main goal of our analysis is three-folds. One is to scrape data of the top 3
 
 ## DATA
 
-If you only execute *main.py*, you can get all datas which is the samea as what we can get.
+Executing *main.py* will produce all of the data.
 
 ### Sources
 
 We collected data from the ESPN website in the following order:
+
 1. Ranking of the NBA players' salaries 
 	http://www.espn.com/nba/salaries/_/year/2022/seasontype/1
 
@@ -20,6 +21,7 @@ We collected data from the ESPN website in the following order:
 	https://www.espn.com/nba/player/bio/_/id/3975/stephen-curry
 
 ### Collection Methods
+
 Our collection methods can be divided into three main steps.
 As we mentioned above, you only execute *main.py*, which will run below three steps.
 
@@ -53,9 +55,15 @@ Note: We used pandas package to handle the datasets more easily.
 
 ### Methodology
 
+After scraping all the data, we used matplotlib to visualize them. We used a combination of bar graph (to show the player salary) and scatter plots to display a few chosen variables: age, assists per game, points scored per game, height and weight. We wanted to see if there are any interesting trends that could be observed.
+
 ### Description and Findings (or lack of findings)
-- Plot 1 - description
-	* ![](plots/plot1.png)
+
+- Plot 1 - Salary
+	* ![](plots/age.png)
+	Plot 1 simply shows the top 30 earners in the descending order. We can see that most players in the top 10 are either point guards(PG) or small forwards(SF). The average salary is around $36m. In the 20-30 range, most players are centers. 
+
+
 - Plot 2 - description
 	* ![](plots/plot2.png)
 - Plot 3 - description
