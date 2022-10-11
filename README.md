@@ -2,55 +2,51 @@
 
 ## GOAL
 
-3 goals
-1. scrape player data
-2. use data extraced to find any interesting findgs/trends
-3. regression anlaysis to see correlation between variable x and y.
-
-The main goal of our analysis is three-folds. One is to scrape data of the top 30 earners in the NBA during the 2021-2022 season from ESPN website. Second, we use the data we extracted to see if there are any interesting findings/trends between the different variables. Lastly, we run a basic regression to see if there are any correlation between variables x and y, which feeds into potential extensions of our analysis or further areas for more research.
+The main goal of our analysis is three-folds. One is to scrape data of the top 30 NBA players that earned the highest salary during 2021-2022 season from the ESPN website. Second, we use the data we extracted to see if there are any interesting findings/trends between different variables: age, assists per game, points scored per game, height and weight. Lastly, we run a regression analysis to see if there are any correlation between salary and the said variables.
 
 
 ## DATA
 
-If you only execute *main.py*, you can get all datas which is the samea as what we can get.
+Executing *main.py* will produce all of the data.
 
 ### Sources
 
-We collected datas from ESPN website in the following.
-*1. The ranking of the NBA players salaries 
+We collected data from the ESPN website in the following order:
+
+1. Ranking of the NBA players' salaries 
 	http://www.espn.com/nba/salaries/_/year/2022/seasontype/1
-*2. The bio pages of each NBA players' detailed inforamtion.	
-	For example, Stephen Curry'S detailed information is there.
+
+2. Bio pages of individual NBA players' detailed inforamtion.	
+	For example, Stephen Curry's detailed information can be found below:
 	https://www.espn.com/nba/player/bio/_/id/3975/stephen-curry
 
 ### Collection Methods
-We adopted three steps through collecting datas.
-As we mentioned above, you only execute *main.py* if you want to execute three steps.
+
+Our collection methods can be divided into three main steps.
+As we mentioned above, you only execute *main.py*, which will run below three steps.
 
 
 1. Collect the ranking of the NBA players salaries and the each player [scrape_ranking.py/scrape_ranking_pages.py]
 	- Using request package, we got the html data from the page of ranking of salaries 2021-2022
 	  For example, http://www.espn.com/nba/salaries/_/year/2022/seasontype/1
 	- Using beatuiful soup package, we got *ranking, name, team, salarly, the link of player'S detailed*
-	- Also, from the player's link, we got players' *id* which was given by ESPN website. This will be used to merge datas later. 
-	- Finally, we created CSV.file named **results_players.csv** from these data.
+	- Also, from the player's link, we got players' *id* which was given by ESPN website. This will be used to merge data later. 
+	- Finally, we created CSV.file named **results_players.csv** that contains these data.
 
 
 2. Collect each player's detailed information from each bio pages [scrape_player.py/scrape_player_pages.py]
 	- Using request package, we got the html data from each player's site
 	  For example, https://www.espn.com/nba/player/_/id/3975/stephen-curry
 	- Using beautiful soup package, we got *name, position, height, weight, age, assist, pts*
-	- Similarly to 1.m, from the player's link, we got players' *id* which was given by ESPN website. 
+	- Similar to step 1, we got players' *id* from the player's link, which was given by the ESPN website. 
 	- Finally, we created CSV.file named **results_player.csv**
 
-3. Merged between ranking data and player's detailed data[main.py]
-	- After 1. 2. steps, we read csv files **results_players.csv** and **results_players.csv**.
-	- We set these two datas's index is *id*, which means two data will be consistent in merge.
-	- And, we merged two datas into one data based on *id*.
-	- Finally, we created CSV.file named **results_integrated.csv** from merged data.
+3. Merge the ranking data and detailed player's data [main.py]
+	- After steps 1 and 2, we read csv files **results_players.csv** and **results_players.csv**.
+	- We set *id* as the index for both of the datasets and merged them.
+	- Finally, we created CSV.file named **results_integrated.csv** from the merged data.
 
-
-Note: when we dealt with datas, we used pandas package to do this easier.
+Note: We used pandas package to handle the datasets more easily.
 
 ### Limitation of the data
 ### Extension of data
@@ -59,9 +55,15 @@ Note: when we dealt with datas, we used pandas package to do this easier.
 
 ### Methodology
 
+After scraping all the data, we used matplotlib to visualize them. We used a combination of bar graph (to show the player salary) and scatter plots to display a few chosen variables: age, assists per game, points scored per game, height and weight. We wanted to see if there are any interesting trends that could be observed.
+
 ### Description and Findings (or lack of findings)
-- Plot 1 - description
-	* ![](plots/plot1.png)
+
+- Plot 1 - Salary
+	* ![](plots/age.png)
+	Plot 1 simply shows the top 30 earners in the descending order. We can see that most players in the top 10 are either point guards(PG) or small forwards(SF). The average salary is around $36m. In the 20-30 range, most players are centers. 
+
+
 - Plot 2 - description
 	* ![](plots/plot2.png)
 - Plot 3 - description
