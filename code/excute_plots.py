@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 import pandas as pd
+import seaborn as sns
 import os
 
 '''Execute salary graph'''
@@ -45,45 +46,17 @@ plt.ylabel('name')
 plt.savefig(os.path.join(OUT_PATH))
 plt.show()
 
+'''Execute pts by position graph'''
+IN_PATH = os.path.join("artifacts", "results_player.csv")
+OUT_PATH = os.path.join("plot", "pts_salary.png")
 
-'''Execute pts graph'''
-OUT_PATH = os.path.join("plot", "pts.png")
+data1 = pd.read_csv(IN_PATH)
 
-df = pd.read_csv(IN_PATH)
-
-fig = plt.figure(figsize = (11,11))
-ax = fig.add_subplot(1, 1, 1)
-plt.scatter(df['pts'], df['name'])
-plt.title('Pts Graph')
-plt.xlabel('pts')
-plt.ylabel('name') 
+sns.scatterplot(data=data1, x="pts", y="salary", hue="position")
 plt.savefig(os.path.join(OUT_PATH))
 plt.show()
 
-'''Execute height graph'''
-OUT_PATH = os.path.join("plot", "height.png")
 
-df = pd.read_csv(IN_PATH)
 
-fig = plt.figure(figsize = (11,11))
-ax = fig.add_subplot(1, 1, 1)
-plt.scatter(df['height'], df['name'])
-plt.title('height Graph')
-plt.xlabel('height')
-plt.ylabel('name') 
-plt.savefig(os.path.join(OUT_PATH))
-plt.show()
 
-'''Execute weight graph'''
-OUT_PATH = os.path.join("plot", "weight.png")
 
-df = pd.read_csv(IN_PATH)
-
-fig = plt.figure(figsize = (11,11))
-ax = fig.add_subplot(1, 1, 1)
-plt.scatter(df['weight'], df['name'])
-plt.title('Weight Graph')
-plt.xlabel('weight')
-plt.ylabel('name') 
-plt.savefig(os.path.join(OUT_PATH))
-plt.show()
