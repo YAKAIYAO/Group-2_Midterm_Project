@@ -9,7 +9,7 @@ df = pd.read_csv(IN_PATH)
 
 fig = plt.figure(figsize = (11,11))
 ax = fig.add_subplot(1, 1, 1)
-plt.scatter(df['age'], df['name'])
+plt.barh(df['name'], df['age'])
 plt.title('Aage')
 plt.xlabel('age')
 plt.ylabel('name') 
