@@ -1,31 +1,31 @@
 id,year,rank,name,team,salary,player_url,name,position,height,weight,age,assist,pts
-3975,2022,30,"D'Angelo Russell, PG",Minnesota Timberwolves,30013500,https://www.espn.com/nba/player/_/id/3136776/d'angelo-russell,D'Angelo Russell,Point Guard,6.04,193,26,7.1,18.1
-3992,2022,29,"CJ McCollum, SG",New Orleans Pelicans,30864198,https://www.espn.com/nba/player/_/id/2490149/cj-mccollum,CJ McCollum,Shooting Guard,6.03,190,31,5.1,22.1
-4237,2022,28,"Kevin Love, PF",Cleveland Cavaliers,31258256,https://www.espn.com/nba/player/_/id/3449/kevin-love,Kevin Love,Power Forward,6.08,251,34,2.2,13.6
-3468,2022,27,"Nikola Jokic, C",Denver Nuggets,31579390,https://www.espn.com/nba/player/_/id/3112335/nikola-jokic,Nikola Jokic,Center,6.11,284,27,7.9,27.1
-3202,2022,26,"Andrew Wiggins, SF",Golden State Warriors,31579390,https://www.espn.com/nba/player/_/id/3059319/andrew-wiggins,Andrew Wiggins,Small Forward,6.07,197,27,2.2,17.2
-1966,2022,25,"Joel Embiid, C",Philadelphia 76ers,31579390,https://www.espn.com/nba/player/_/id/3059318/joel-embiid,Joel Embiid,Center,7,280,28,4.2,30.6
-3032977,2022,24,"Karl-Anthony Towns, C",Minnesota Timberwolves,31650600,https://www.espn.com/nba/player/_/id/3136195/karl-anthony-towns,Karl-Anthony Towns,Center,6.11,248,26,3.6,24.6
-6606,2022,23,"Devin Booker, SG",Phoenix Suns,31650600,https://www.espn.com/nba/player/_/id/3136193/devin-booker,Devin Booker,Shooting Guard,6.05,206,25,4.8,26.8
-6450,2022,22,"Kristaps Porzingis, C",Washington Wizards,31650600,https://www.espn.com/nba/player/_/id/3102531/kristaps-porzingis,Kristaps Porzingis,Center,7.03,240,27,2.3,20.2
-4251,2022,21,"Jrue Holiday, PG",Milwaukee Bucks,32413333,https://www.espn.com/nba/player/_/id/3995/jrue-holiday,Jrue Holiday,Point Guard,6.03,205,32,6.8,18.3
-6475,2022,20,"Ben Simmons, PG",Brooklyn Nets,33003936,https://www.espn.com/nba/player/_/id/3907387/ben-simmons,Ben Simmons,Point Guard,6.11,240,26,6.9,14.3
-6430,2022,19,"Pascal Siakam, PF",Toronto Raptors,33003936,https://www.espn.com/nba/player/_/id/3149673/pascal-siakam,Pascal Siakam,Power Forward,6.08,230,28,5.3,22.8
-6440,2022,18,"Bradley Beal, SG",Washington Wizards,33724200,https://www.espn.com/nba/player/_/id/6580/bradley-beal,Bradley Beal,Shooting Guard,6.03,207,29,6.6,23.2
-6609,2022,17,"Kyrie Irving, PG",Brooklyn Nets,35328700,https://www.espn.com/nba/player/_/id/6442/kyrie-irving,Kyrie Irving,Point Guard,6.02,195,30,5.8,27.4
-6583,2022,16,"Rudy Gobert, C",Utah Jazz,35344828,https://www.espn.com/nba/player/_/id/3032976/rudy-gobert,Rudy Gobert,Center,7.01,258,30,1.1,15.6
-3032976,2022,15,"Anthony Davis, PF",Los Angeles Lakers,35361360,https://www.espn.com/nba/player/_/id/6583/anthony-davis,Anthony Davis,Power Forward,6.1,253,29,3.1,23.2
-6442,2022,14,"Khris Middleton, SF",Milwaukee Bucks,35500000,https://www.espn.com/nba/player/_/id/6609/khris-middleton,Khris Middleton,Small Forward,6.07,222,31,5.4,20.1
-6580,2022,13,"Tobias Harris, PF",Philadelphia 76ers,35995950,https://www.espn.com/nba/player/_/id/6440/tobias-harris,Tobias Harris,Power Forward,6.07,226,30,3.5,17.2
-3149673,2022,12,"Jimmy Butler, SF",Miami Heat,36016200,https://www.espn.com/nba/player/_/id/6430/jimmy-butler,Jimmy Butler,Small Forward,6.07,230,33,5.5,21.4
-3907387,2022,11,"Klay Thompson, SG",Golden State Warriors,37980720,https://www.espn.com/nba/player/_/id/6475/klay-thompson,Klay Thompson,Shooting Guard,6.06,220,32,2.8,20.4
-3995,2022,10,"Paul George, SG",LA Clippers,39344900,https://www.espn.com/nba/player/_/id/4251/paul-george,Paul George,Shooting Guard,6.08,220,32,5.7,24.3
-3102531,2022,9,"Kawhi Leonard, SF",LA Clippers,39344900,https://www.espn.com/nba/player/_/id/6450/kawhi-leonard,Kawhi Leonard,Small Forward,6.07,225,31,5.2,24.8
-3136193,2022,8,"Damian Lillard, PG",Portland Trail Blazers,39344900,https://www.espn.com/nba/player/_/id/6606/damian-lillard,Damian Lillard,Point Guard,6.02,195,32,7.3,24
-3136195,2022,7,"Giannis Antetokounmpo, PF",Milwaukee Bucks,39344970,https://www.espn.com/nba/player/_/id/3032977/giannis-antetokounmpo,Giannis Antetokounmpo,Power Forward,6.11,242,27,5.8,29.9
-3059318,2022,6,"LeBron James, SF",Los Angeles Lakers,41180544,https://www.espn.com/nba/player/_/id/1966/lebron-james,LeBron James,Small Forward,6.09,250,37,6.2,30.3
-3059319,2022,5,"Kevin Durant, PF",Brooklyn Nets,42018900,https://www.espn.com/nba/player/_/id/3202/kevin-durant,Kevin Durant,Power Forward,6.1,240,34,6.4,29.9
-3112335,2022,4,"Russell Westbrook, PG",Los Angeles Lakers,44211146,https://www.espn.com/nba/player/_/id/3468/russell-westbrook,Russell Westbrook,Point Guard,6.03,200,33,7.1,18.5
-3449,2022,3,"John Wall, PG",LA Clippers,44310840,https://www.espn.com/nba/player/_/id/4237/john-wall,John Wall,Point Guard,6.03,210,32,6.9,20.6
-2490149,2022,2,"James Harden, SG",Philadelphia 76ers,44310840,https://www.espn.com/nba/player/_/id/3992/james-harden,James Harden,Shooting Guard,6.05,220,33,10.3,22
-3136776,2022,1,"Stephen Curry, PG",Golden State Warriors,45780966,https://www.espn.com/nba/player/_/id/3975/stephen-curry,Stephen Curry,Point Guard,6.02,185,34,6.3,25.5
+3975.0,2022.0,1.0,"Stephen Curry, PG",Golden State Warriors,45780966.0,https://www.espn.com/nba/player/_/id/3975/stephen-curry,Stephen Curry Biography | ESPN,Point Guard,6.02,185.0,34.0,6.3,25.5
+3992.0,2022.0,2.0,"James Harden, SG",Philadelphia 76ers,44310840.0,https://www.espn.com/nba/player/_/id/3992/james-harden,James Harden Biography | ESPN,Shooting Guard,6.05,220.0,33.0,10.3,22.0
+4237.0,2022.0,3.0,"John Wall, PG",LA Clippers,44310840.0,https://www.espn.com/nba/player/_/id/4237/john-wall,John Wall Biography | ESPN,Point Guard,6.03,210.0,32.0,6.9,20.6
+3468.0,2022.0,4.0,"Russell Westbrook, PG",Los Angeles Lakers,44211146.0,https://www.espn.com/nba/player/_/id/3468/russell-westbrook,Russell Westbrook Biography | ESPN,Point Guard,6.03,200.0,33.0,7.1,18.5
+3202.0,2022.0,5.0,"Kevin Durant, PF",Brooklyn Nets,42018900.0,https://www.espn.com/nba/player/_/id/3202/kevin-durant,Kevin Durant Biography | ESPN,Power Forward,6.1,240.0,34.0,6.4,29.9
+1966.0,2022.0,6.0,"LeBron James, SF",Los Angeles Lakers,41180544.0,https://www.espn.com/nba/player/_/id/1966/lebron-james,LeBron James Biography | ESPN,Small Forward,6.09,250.0,37.0,6.2,30.3
+3032977.0,2022.0,7.0,"Giannis Antetokounmpo, PF",Milwaukee Bucks,39344970.0,https://www.espn.com/nba/player/_/id/3032977/giannis-antetokounmpo,Giannis Antetokounmpo Biography | ESPN,Power Forward,6.11,242.0,27.0,5.8,29.9
+6606.0,2022.0,8.0,"Damian Lillard, PG",Portland Trail Blazers,39344900.0,https://www.espn.com/nba/player/_/id/6606/damian-lillard,Damian Lillard Biography | ESPN,Point Guard,6.02,195.0,32.0,7.3,24.0
+6450.0,2022.0,9.0,"Kawhi Leonard, SF",LA Clippers,39344900.0,https://www.espn.com/nba/player/_/id/6450/kawhi-leonard,Kawhi Leonard Biography | ESPN,Small Forward,6.07,225.0,31.0,5.2,24.8
+4251.0,2022.0,10.0,"Paul George, SG",LA Clippers,39344900.0,https://www.espn.com/nba/player/_/id/4251/paul-george,Paul George Biography | ESPN,Shooting Guard,6.08,220.0,32.0,5.7,24.3
+6475.0,2022.0,11.0,"Klay Thompson, SG",Golden State Warriors,37980720.0,https://www.espn.com/nba/player/_/id/6475/klay-thompson,Klay Thompson Biography | ESPN,Shooting Guard,6.06,220.0,32.0,2.8,20.4
+6430.0,2022.0,12.0,"Jimmy Butler, SF",Miami Heat,36016200.0,https://www.espn.com/nba/player/_/id/6430/jimmy-butler,Jimmy Butler Biography | ESPN,Small Forward,6.07,230.0,33.0,5.5,21.4
+6440.0,2022.0,13.0,"Tobias Harris, PF",Philadelphia 76ers,35995950.0,https://www.espn.com/nba/player/_/id/6440/tobias-harris,Tobias Harris Biography | ESPN,Power Forward,6.07,226.0,30.0,3.5,17.2
+6609.0,2022.0,14.0,"Khris Middleton, SF",Milwaukee Bucks,35500000.0,https://www.espn.com/nba/player/_/id/6609/khris-middleton,Khris Middleton Biography | ESPN,Small Forward,6.07,222.0,31.0,5.4,20.1
+6583.0,2022.0,15.0,"Anthony Davis, PF",Los Angeles Lakers,35361360.0,https://www.espn.com/nba/player/_/id/6583/anthony-davis,Anthony Davis Biography | ESPN,Power Forward,6.1,253.0,29.0,3.1,23.2
+3032976.0,2022.0,16.0,"Rudy Gobert, C",Utah Jazz,35344828.0,https://www.espn.com/nba/player/_/id/3032976/rudy-gobert,Rudy Gobert Biography | ESPN,Center,7.01,258.0,30.0,1.1,15.6
+6442.0,2022.0,17.0,"Kyrie Irving, PG",Brooklyn Nets,35328700.0,https://www.espn.com/nba/player/_/id/6442/kyrie-irving,Kyrie Irving Biography | ESPN,Point Guard,6.02,195.0,30.0,5.8,27.4
+6580.0,2022.0,18.0,"Bradley Beal, SG",Washington Wizards,33724200.0,https://www.espn.com/nba/player/_/id/6580/bradley-beal,Bradley Beal Biography | ESPN,Shooting Guard,6.03,207.0,29.0,6.6,23.2
+3149673.0,2022.0,19.0,"Pascal Siakam, PF",Toronto Raptors,33003936.0,https://www.espn.com/nba/player/_/id/3149673/pascal-siakam,Pascal Siakam Biography | ESPN,Power Forward,6.08,230.0,28.0,5.3,22.8
+3907387.0,2022.0,20.0,"Ben Simmons, PG",Brooklyn Nets,33003936.0,https://www.espn.com/nba/player/_/id/3907387/ben-simmons,Ben Simmons Biography | ESPN,Point Guard,6.11,240.0,26.0,6.9,14.3
+3995.0,2022.0,21.0,"Jrue Holiday, PG",Milwaukee Bucks,32413333.0,https://www.espn.com/nba/player/_/id/3995/jrue-holiday,Jrue Holiday Biography | ESPN,Point Guard,6.03,205.0,32.0,6.8,18.3
+3102531.0,2022.0,22.0,"Kristaps Porzingis, C",Washington Wizards,31650600.0,https://www.espn.com/nba/player/_/id/3102531/kristaps-porzingis,Kristaps Porzingis Biography | ESPN,Center,7.03,240.0,27.0,2.3,20.2
+3136193.0,2022.0,23.0,"Devin Booker, SG",Phoenix Suns,31650600.0,https://www.espn.com/nba/player/_/id/3136193/devin-booker,Devin Booker Biography | ESPN,Shooting Guard,6.05,206.0,25.0,4.8,26.8
+3136195.0,2022.0,24.0,"Karl-Anthony Towns, C",Minnesota Timberwolves,31650600.0,https://www.espn.com/nba/player/_/id/3136195/karl-anthony-towns,Karl-Anthony Towns Biography | ESPN,Center,6.11,248.0,26.0,3.6,24.6
+3059318.0,2022.0,25.0,"Joel Embiid, C",Philadelphia 76ers,31579390.0,https://www.espn.com/nba/player/_/id/3059318/joel-embiid,Joel Embiid Biography | ESPN,Center,7.0,280.0,28.0,4.2,30.6
+3059319.0,2022.0,26.0,"Andrew Wiggins, SF",Golden State Warriors,31579390.0,https://www.espn.com/nba/player/_/id/3059319/andrew-wiggins,Andrew Wiggins Biography | ESPN,Small Forward,6.07,197.0,27.0,2.2,17.2
+3112335.0,2022.0,27.0,"Nikola Jokic, C",Denver Nuggets,31579390.0,https://www.espn.com/nba/player/_/id/3112335/nikola-jokic,Nikola Jokic Biography | ESPN,Center,6.11,284.0,27.0,7.9,27.1
+3449.0,2022.0,28.0,"Kevin Love, PF",Cleveland Cavaliers,31258256.0,https://www.espn.com/nba/player/_/id/3449/kevin-love,Kevin Love Biography | ESPN,Power Forward,6.08,251.0,34.0,2.2,13.6
+2490149.0,2022.0,29.0,"CJ McCollum, SG",New Orleans Pelicans,30864198.0,https://www.espn.com/nba/player/_/id/2490149/cj-mccollum,CJ McCollum Biography | ESPN,Shooting Guard,6.03,190.0,31.0,5.1,22.1
+3136776.0,2022.0,30.0,"D'Angelo Russell, PG",Minnesota Timberwolves,30013500.0,https://www.espn.com/nba/player/_/id/3136776/d'angelo-russell,D'Angelo Russell Biography | ESPN,Point Guard,6.04,193.0,26.0,7.1,18.1
