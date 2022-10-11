@@ -54,30 +54,30 @@ After scraping all the data, we used matplotlib to visualize them. We used a com
 ### Description and Findings (and lack of findings)
 
 - Plot 1 - Salary
-	![](plots/age.png)
+	![](plot/age.png)
 	Plot 1 simply shows the top 30 earners in the descending order. We can see that most players in the top 10 are either point guards(PG) or small forwards(SF). The average salary is around $36m. In the 20-30 range, most players are centers. Those that have similar salaries have similar contract lengths. For example, Andrew Wiggins and Joel Embiid both have five-year contracts.
 
 - Plot 2 - Salary and Age
-	![](plots/age.png)
+	![](plot/age.png)
 	Among the top 30, we can see that only Lebron James is older than 36. Most players are between age 30-34. It seems like 35+ may have hard time maintainig high salary, perhaps because they have shorter contracts as they get older.
 
 - Plot 3 - Salary and Assists per Game
-	![](plots/assist.png)
+	![](plot/assist.png)
 	We can see that most of the top 30 players have 5+ assists. Stephen Curry has 10+ assists, while Rudy Gobert only has one.
 
 - Plot 4 - Salary and Points per Game
-	![](plots/point.png)
+	![](plot/point.png)
 	Average points scored per game is around 22.
 
 - Plot 5 - Salary and Height
-	![](plots/height.png)
+	![](plot/height.png)
 	Most players that made the top 30 are at least 6ft tall.
 
 - Plot 6 - Salary and Weight
-	![](plots/weight.png)
+	![](plot/weight.png)
 
 - Hanwen's Regression
-	![](plots/regression1.png)
+	![](plot/regression1.png)
 	We found that the most correlated variables are: 1. Age 2. Assists 3. Points.
 	(More details to be added by Hanwen)
 
