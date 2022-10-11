@@ -26,8 +26,9 @@ Note: You only need to execute *main.py*, which will run below three steps.
 1. Collect the ranking of the NBA players salaries and the each player [scrape_ranking.py/scrape_ranking_pages.py]
 	- Using request package, we got the html data from the page of ranking of salaries 2021-2022
 	  For example, http://www.espn.com/nba/salaries/_/year/2022/seasontype/1
-	- Using beatuiful soup package, we got *ranking, name, team, salarly, the link of player'S detailed*
+	- Using beatuiful soup package, we got *ranking, name, team, salarly, the link of player's detailed*
 	- Also, from the player's link, we got players' *id* which was given by ESPN website. This will be used to merge data later. 
+	- We extract only top 30 players in salary from these data.
 	- Finally, we created CSV.file named **results_players.csv** that contains these data.
 
 
