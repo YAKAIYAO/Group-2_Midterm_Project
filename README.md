@@ -70,7 +70,10 @@ After scraping all the data, we used matplotlib to visualize them. We used a com
 	![](plot/pts.png)
 	Average points scored per game is around 22.
 
-- Plot 5 - Salary and Weight
+- Plot 5 - Salary and Height
+	![](plot/height.png)
+
+- Plot 6 - Salary and Weight
 	![](plot/weight.png)
 
 - Regression and Heteroskedasticity Test
