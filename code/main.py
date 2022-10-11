@@ -3,11 +3,11 @@ import os
 from scrape_ranking import exe_scrape_ranking
 from scrape_player import exe_scrape_player
 
-# 1. Execute two scraping
+'''1. Execute two scraping'''
 exe_scrape_ranking()
 exe_scrape_player()
 
-# 2. Merge two csv files(results_player and results_ranking)
+'''2. Merge two csv files(results_player and results_ranking)'''
 BASE_DIR = "artifacts"
 Ranking_CSV_PATH = os.path.join(BASE_DIR, "results_ranking.csv")
 Player_CSV_PATH = os.path.join(BASE_DIR, "results_player.csv")

@@ -4,7 +4,8 @@ import pandas as pd
 new_data = pd.DataFrame({"id":{},"year":{},"rank":[], "name":[], "team":[],"salary":[],"player_url":[]},index=[])
 data = pd.DataFrame({"id":{},"year":{},"rank":[], "name":[], "team":[],"salary":[],"player_url":[]},index=[])
 
-# Function scraping
+'''Input: year, curren url and current page,
+    Output: scraped data of a page '''
 def scrape_page(year, current_URL,page):
     global max_page
     soup = get_soup(current_URL)
@@ -23,7 +24,8 @@ def scrape_page(year, current_URL,page):
             player_scraping(evenplayer_html,year)
     return data
 
-# Function Input:HTML Output:Information
+'''Input html of the ranking and year,
+    Ouput: the player's data''' 
 def player_scraping(player_html,year):
     year = year
     rank = int(player_html.find_all("td")[0].text)
@@ -35,7 +37,8 @@ def player_scraping(player_html,year):
     data.loc[id] = [id,year,rank,name,team,salary,player_url]
     return
 
-# Function Input:HTML Output:Maxvalue
+''' Input: html of the ranking,
+    Output the max page of a year'''
 def extract_max_page(soup):
     temp =[]
     page = soup.find_all("div", class_="page-numbers")[0].text
@@ -43,7 +46,8 @@ def extract_max_page(soup):
     max_page=temp[2]
     return max_page
 
-# Scraping All year all page 
+''' Input: url, years, top(the number of players that we want to collect)
+    Output: all ranking data''' 
 def scrape_all_pages(url,all_years,top):
     for year in all_years: 
         for page in range(20):
@@ -52,7 +56,8 @@ def scrape_all_pages(url,all_years,top):
         new_data=top_saraly(data,top)
     return new_data
 
-# Function Input: all data Output: top30(its number)
+''' Input: data, top(the number of players that we want to collect)
+    Output: data with only top plaer'''
 def top_saraly(data, top):
     if(top != ""):
         data.sort_values(["rank"],inplace=True)

@@ -3,16 +3,16 @@ import pandas as pd
 
 data = pd.DataFrame({"id":{},"name":{},"position":[], "height":[],"weight":[], "age":[],"assist":[],"pts":[]},index=[])
 
-# scraping each pages
+''' Input: URL(each player's), Output: Each player's data'''
 def scrape_page(current_URL):
     print(current_URL)
     Bio_URL= "https://www.espn.com/nba/player/bio/"+ current_URL.replace("https://www.espn.com/nba/player/","")
     id = current_URL.replace("https://www.espn.com/nba/player/_/id/","").split("/")[0]
-    soup = get_soup(current_URL)
+    soup = get_soup(Bio_URL)
     player_scraping(soup, id)
     return data
     
-# Extracting datas from the scrpaing data
+''' Input: HTML, Output: Each player's data'''
 def player_scraping(soup,id):
     id = int(id)
     try: 
@@ -36,7 +36,7 @@ def player_scraping(soup,id):
     data.loc[id] = [id,name,position,height,weight,age,assist,pts]
     return
   
-# Change the feet into its foat data(6' 2'' -> 6.2feet)
+''' Input: Raw expression of height data, Output: Arrangemented data in feet'''
 def feet_change(feet):
     changed_feet = float(feet.split(" ")[0].replace("'",""))+1/100*float(feet.split(" ")[1][:-1])
     return changed_feet
