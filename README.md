@@ -54,7 +54,7 @@ After scraping all the data, we used matplotlib to visualize them. We used a com
 ### Description and Findings (and lack of findings)
 
 - Plot 1 - Salary
-	![](plot/age.png)
+	![](plot/salary.png)
 	Plot 1 simply shows the top 30 earners in the descending order. We can see that most players in the top 10 are either point guards(PG) or small forwards(SF). The average salary is around $36m. In the 20-30 range, most players are centers. Those that have similar salaries have similar contract lengths. For example, Andrew Wiggins and Joel Embiid both have five-year contracts.
 
 - Plot 2 - Salary and Age
@@ -66,20 +66,13 @@ After scraping all the data, we used matplotlib to visualize them. We used a com
 	We can see that most of the top 30 players have 5+ assists. Stephen Curry has 10+ assists, while Rudy Gobert only has one.
 
 - Plot 4 - Salary and Points per Game
-	![](plot/point.png)
+	![](plot/pts.png)
 	Average points scored per game is around 22.
 
-- Plot 5 - Salary and Height
-	![](plot/height.png)
-	Most players that made the top 30 are at least 6ft tall.
-
-- Plot 6 - Salary and Weight
+- Plot 5 - Salary and Weight
 	![](plot/weight.png)
 
-- Hanwen's Regression
-	![](plot/regression1.png)
-	We found that the most correlated variables are: 1. Age 2. Assists 3. Points.
-	(More details to be added by Hanwen)
+- Regression and Heteroskedasticity Test
 
 
 ### Limitations
@@ -100,27 +93,3 @@ In regards to extensions of our analysis, we could collect larger sample size (1
 - After running above code, you can get three csv files in the artifacts directory.
 - **result_integrated.csv** file is the final result file.
 
-
-
---------------------------------------------------------------------------------------------
-
-# (TO BE DELETED LATER)
-# Checklist for presentation and readme report
-
-* Prensentation: goal, methodology, findings, limitations and potential extensions
-
-
-Reporting about DATA
-* Source(s) of dataset(s)
-* Data collection methods
-* Limitations of the data
-* A discussion of extensions of data that would be required to improve the analysis
-
-Reporting your ANALAYSIS
-* goal of the analysis -check-
-* include methodology
-* description of your project and its findings (or lack of findings)
-* Your findings (or non-findings)
-* The limitations of the analysis
-* Extensions of your analysis or areas for more research
-* should not include analysis, plots, discoveries, that aren’t directly related to your finding
