@@ -11,13 +11,13 @@ OUT_PATH = os.path.join("artifacts", "result_regress.json")
 data = pd.read_csv(IN_PATH)
 data.info()
 
-"""#define response variable"""
+"""define response variable"""
 y = data['salary']
 
-"""#define predictor variables"""
+"""define predictor variables"""
 x = data[['height', 'weight','age', 'assist', 'pts']]
 
-"""#add constant to predictor variables"""
+"""add constant to predictor variables"""
 x = sm.add_constant(x)
 
 """#fit regression model"""
@@ -28,13 +28,13 @@ print_model = model.summary()
 print(print_model)
 
 
-"""#perform White's test"""
+"""perform White's test"""
 white_test = het_white(model.resid,  model.model.exog)
 
-"""#define labels to use for output of White's test"""
+"""define labels to use for output of White's test"""
 labels = ['Test Statistic', 'Test Statistic p-value', 'F-Statistic', 'F-Test p-value']
 
-"""#print results of White's test"""
+"""print results of White's test"""
 raw_data = {
 	'Test Statistic': white_test[0],
 	'Test Statistic p-value': white_test[1],
@@ -56,4 +56,4 @@ write_json(json_data)
 
 print(json_data)
 print(type(json_data))
-#print(dict(zip(labels, white_test)))
+
