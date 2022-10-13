@@ -56,18 +56,22 @@ After scraping all the data, we used matplotlib and seaborn to visualize them. W
 
 - Plot 1 - Salary
 	![](plot/salary.png)
+
 	Plot 1 simply shows the top 30 earners in the descending order. We can see that most players in the top 10 are point guards (PG). The average salary is around $36m. In the 20-30 range, most players are centers. Those that have similar salaries have similar contract lengths. For example, Andrew Wiggins and Joel Embiid both have five-year contracts.
 
 - Plot 2 - Salary and Age
 	![](plot/age.png)
+
 	Among the top 30, we can see that only Lebron James is older than 36. Most players are between age 30-34. It seems like 35+ may have hard time maintainig high salary, perhaps because they have shorter contracts as they get older.
 
 - Plot 3 - Salary and Assists per Game
 	![](plot/assist.png)
+
 	We can see that most of the top 30 players have 5+ assists. James Harden has 10+ assists, while Rudy Gobert only has one.
 
 - Plot 4 - Salary and Points per Game by Position
 	![](plot/pts_salary.png)
+	
 	From this scatter plot, we observe that more points per game does not necessarily mean higher salary. Also, all of the shooting guards in the top 30 scored more than 20 points per game.
 
 - Regression and Heteroskedasticity Test
