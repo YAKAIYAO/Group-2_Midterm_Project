@@ -76,7 +76,7 @@ After scraping all the data, we used matplotlib and seaborn to visualize them. W
 
 - Regression and Heteroskedasticity Test
 	
-	We loaded the scraped data using pandas DataFrame. Then we fit a regression model with salary as the response variable and height, weight, age, assists, and points as the five predictor variables. We then used het_white() function from the statsmodels package to perform White's test to determine if heteroskedasticity is present in the regression model. Finally, we generated the results in json file.
+	We loaded the scraped data using pandas DataFrame. Using sklearn package, we fit a regression model with salary as the response variable and height, weight, age, assists, and points as the five predictor variables. We then used the statsmodels package to perform White's test to determine if heteroskedasticity is present in the regression model. Finally, we generated the results in json file.
 
 	![](plot/regression_test.png)
 
