@@ -23,7 +23,7 @@ Our collection methods can be divided into three main steps.
 Note: You only need to execute *main.py*, which will run below three steps.
 
 
-1. Collect the ranking of the NBA players salaries and the each player [scrape_ranking.py/scrape_ranking_pages.py]
+1. Collect the ranking of the NBA players salaries for each player [scrape_ranking.py/scrape_ranking_pages.py]
 	- Using request package, we got the html data from the page of ranking of salaries 2021-2022
 	  For example, http://www.espn.com/nba/salaries/_/year/2022/seasontype/1
 	- Using beatuiful soup package, we got *ranking, name, team, salarly, the link of player's detailed*
