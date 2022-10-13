@@ -12,10 +12,10 @@ data = pd.read_csv(IN_PATH)
 data.info()
 
 '''define response variable'''
-y = data['salary']
+y = data["salary"]
 
 '''define predictor variables'''
-x = data[['height', 'weight','age', 'assist', 'pts']]
+x = data[["height", "weight","age", "assist", "pts"]]
 
 '''add constant to predictor variables'''
 x = sm.add_constant(x)
@@ -32,14 +32,14 @@ print(print_model)
 white_test = het_white(model.resid,  model.model.exog)
 
 '''define labels to use for output of White's test'''
-labels = ['Test Statistic', 'Test Statistic p-value', 'F-Statistic', 'F-Test p-value']
+labels = ["Test Statistic", "Test Statistic p-value", "F-Statistic", "F-Test p-value"]
 
 '''print results of White's test'''
 raw_data = {
-	'Test Statistic': white_test[0],
-	'Test Statistic p-value': white_test[1],
-	'F-Statistic': white_test[2],
-	'F-Test p-value': white_test[3]
+	"Test Statistic": white_test[0],
+	"Test Statistic p-value": white_test[1],
+	"F-Statistic": white_test[2],
+	"F-Test p-value": white_test[3]
 }
 
 
